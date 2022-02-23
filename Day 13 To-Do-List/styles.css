@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* background-color: #ccc; */
+  background-image: url(images/aaron-burden-AXqMy8MSSdk-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* start here */
+
+section {
+  width: 100%;
+  padding: 0 3rem;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 5rem auto;
+}
+
+.add-item {
+  /* background-color: var(--color-primary); */
+
+  background: rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 5rem 0;
+  margin: 2rem auto;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.add-item form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-item form input {
+  padding: 1rem 1.5rem;
+  font-size: 1.8rem;
+  color: var(--grey);
+  width: 75%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  margin-right: 5px;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+form button {
+  width: 10%;
+  font-size: 1.6rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 1rem;
+}
+
+form button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+  font-size: 2rem;
+  color: #222831;
+  margin: 1rem;
+  font-weight: 700;
+}
+
+ol li {
+  font-size: 1.6rem;
+  margin: 5px 0;
+  background-color: var(--grey);
+  border-radius: 5px;
+  padding: 1rem;
+  position: relative;
+}
+
+ol li:nth-child(odd) {
+  background-color: #321f28;
+  color: var(--white);
+}
+
+li button {
+  font-size: 1.6rem;
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  top: 1.2rem;
+  color: red;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.clear {
+  margin-top: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
