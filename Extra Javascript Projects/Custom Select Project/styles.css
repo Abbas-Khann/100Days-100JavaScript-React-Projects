@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Helvetica Neue';
+}
+
+body{
+    background: lightblue;
+}
+
+.wrapper {
+    width: 370px;
+    margin: 130px auto 0;    
+    /* This means that the top margin is 130px right and left are both auto and bottom is 0 */
+
+}
+
+.select-btn, .options li{
+display: flex;
+cursor: pointer;
+align-items: center;
+
+
+}
+.select-btn{
+    height: 65px;
+    padding: 0 20px;
+    border-radius: 7px;
+    background: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-btn i {
+    font-size: 31px;
+}
+
+.content {
+    background: lightgoldenrodyellow;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 7px;
+    display: none;
+}
+
+.wrapper.active .content{
+    display: block;
+}
+
+.content .search {
+    position: relative;
+}
+
+.search i{
+    left: 15px;
+    color: #999;
+    font-size: 20px;
+    line-height: 53px;
+    position: absolute;
+}
+
+.search input{
+    height: 53px;
+    width: 100%;
+    font-size: 17px;
+    outline: none;
+    font-size: 17px;
+    border-radius: 6px;
+    padding: 0 15px 0 43px;
+    border: 1px solid #b3b3b3;
+}
+
+.content .options{
+    margin-top: 10px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.options li {
+
+    height: 50px;
+    background: #ecf5db;
+    border-radius: 5px;
+    padding: 0 13px;
+    font-size: 19px;
+    
+}
+
+.options li:hover{
+    background: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
