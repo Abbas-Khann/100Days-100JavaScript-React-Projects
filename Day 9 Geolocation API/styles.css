@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    padding: 20px;
+    margin: 30px;
+}
+
+.location {
+    font-size: 1.5em;
+    font-weight: italic;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 20px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    color: whitesmoke;
+    cursor: pointer;
+}
