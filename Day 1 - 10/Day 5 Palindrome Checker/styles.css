@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+    background-color: skyblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pali {
+    width: 40rem;
+    background: whitesmoke;
+    padding: 5rem 3rem;
+    border-radius: 5px;;
+}
+
+.pali > * {
+    border: none;
+    outline: none;
+    padding: 1rem 5px;
+}
+
+input {
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid lightseagreen;
+    padding: 1rem 5px;
+    font-size: 1.6rem;
+}
+
+button {
+    width: 25%;
+    padding: 1rem 5px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: purple;
+    cursor: pointer;
+}
+
+p.result {
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.3rem;
+    color: rgb(42, 35, 87);
+    margin-bottom: 1.5rem;
+}
