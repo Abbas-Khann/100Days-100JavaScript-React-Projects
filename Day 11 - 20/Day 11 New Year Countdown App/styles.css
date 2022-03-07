@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    background-image: url(./images/thula-na-ddJ9PNYjric-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 55px;
+    color: rgb(230, 248, 182);
+    line-height: 2;
+}
+
+#countdown {
+    /* background-color: rgb(80, 91, 95); */
+    padding: 10px;
+    font-size: 45px;
+    color: rgb(46, 46, 35);
+}
