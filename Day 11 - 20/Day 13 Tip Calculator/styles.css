@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: salmon;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
+    border: solid 2px yellow;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h2{
+    color: rgb(88, 61, 240);
+    padding: 0.5rem 0.5rem;
+    margin: 10px;
+    background-color: rgb(242, 243, 221);
+    width: 95%;
+    text-align: center;
+}
+
+.calc {
+    width: 40rem;
+    max-width: 60%;
+    background-color: rgb(203, 156, 241)
+}
+
+#bill {
+    /* align-items: center; */
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 0.5rem;
+    font-size: 23px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+form,
+form > * {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input,
+select {
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    width: 20rem;
+    text-align: right;
+}
+
+.btn {
+    margin: 5px 0;
+    /* background-color: rgba(226, 65, 65, 0); */
+    color: rgb(65, 51, 26);
+    outline: none;
+    border: none;
+    width: 18rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+}
+
+.error {
+    color: aquamarine;
+    display: none;
+}
+
+.result {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.result > * {
+    background-color: lightgray;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
