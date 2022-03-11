@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/elena-mozhvilo-j06gLUkk0GM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    flex-direction: column;
+}
+
+.child {
+    background-image: linear-gradient(rgb(158, 201, 218), rgb(199, 147, 147));
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(59, 102, 119);
+    height: 100%;
+    border-radius: 7px;
+}
+
+h1 {
+    font-size: 1.9rem;
+    font-family: Helvetica, arial,sans-serif;
+    color: rgb(10, 10, 122);
+    background-color: rgb(224, 214, 194);
+    width: 103%;
+    /* padding-right: 20px; */
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.input-p {
+
+    width: 100%;
+    height: 10%;
+}
+
+.input-k {
+    width: 100%;
+    height: 10%;
+}
+
+.input-g {
+    width: 100%;
+    height: 10%;
+}
+
+.input-o {
+    width: 100%;
+    height: 10%;
+}
+
+#para {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(2, 19, 19);
+    font-style: italic;
+}
