@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0;
+    background: grey;
+}
+
+.btn {
+    padding: 15px;
+    width: 160px;
+    background: orange;
+}
+
+.btn:hover {
+    background: salmon;
+}
+
+.btw1-20 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.btw1-20 > * {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#text-top-right {
+    width: 180px;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 60px;
+    color: aliceblue;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 45%;
+    height: 500px;
+    margin-top: 30px;
+}
+#input-num {
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    font-size: 2rem;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+#btn-check {
+    padding: 15px 30px;
+    background: linear-gradient(orange, aliceblue);
+    margin: 15px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+
+#btn-check:hover {
+    background: linear-gradient(whitesmoke, salmon );
+}
+
+.input > * {
+    font-size: 20px;
+    padding: 60px;
+}
+
+
+.check-div {
+    margin-top: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    font-size: 1.5rem;
+}
+
+.result {
+    text-align: center;
+    font-size: 1.8rem;
+    color: beige;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
