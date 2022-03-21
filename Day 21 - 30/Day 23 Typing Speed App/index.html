@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="TDF-8">
+    <title>Typing Test App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Ubuntu" rel="stylesheet">
+</head>
+
+<body>
+    <!-- MAIN HEADER -->
+    <header class="main-header">
+        <h1>Typing Tester App</h1>
+    </header>
+    
+    <div class="container">
+        <div class="child">
+            <p id="original-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, recusandae.</p>
+        </div>
+    </div>
+    
+    <div class="container2">
+        <div class="child2">
+            <input type="text" placeholder="The Timer starts when you start typing" class="input-txt">
+        </div>
+    </div>
+    
+    <div class="container3">
+        <div class="child3">
+            <span id="minutes">00</span> Mins 
+            <span id="seconds">00 </span>Seconds
+            <button id="reset-btn">Reset</button>
+        </div>
+    </div>
+    
+    <div class="container4">
+        <div class="child4">
+            <p class="para">Congratulations!</p>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>
+            Copyright &copy; 2022
+            <br>
+            <br>
+            All Rights Reserved
+        </footer>
+    </div>
+    
+    <audio id="clap">
+        <source src="sounds/clap.wav" type="audio/wav">
+    </audio>
+    
+    <audio id="congrats">
+        <source src="sounds/congrats.wav" type="audio/wav">
+    </audio>
+    
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
+

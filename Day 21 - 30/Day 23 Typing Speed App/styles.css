@@ -1,0 +1,113 @@
+body{
+    background: rgb(227, 228, 196);
+    font-family: 'Arial Unicode MS', sans-serif;
+    margin: 0; 
+}
+
+.main-header {
+    background: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+     background: orange;
+     padding: 20px;
+     margin: 50px auto auto auto;
+     border: 5px solid grey;
+     border-radius: 7px;
+     font-size: 1.2rem;
+     max-width: 750px;
+     text-align: center;
+     box-shadow: 0 0 15px black;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.child2 {
+    margin: auto;
+    max-width: 750px;
+}
+
+.input-txt {
+    background: rgb(246, 180, 57);
+    margin-top: 40px;
+    padding: 20px;
+    width: 93%;
+    height: 10vh;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 5px solid rgb(121, 95, 146);
+    border-radius: 7px;
+    box-shadow: 0 0 15px black;
+    color: rgb(14, 0, 0);
+}
+
+.container3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.child3 {
+    margin: 0 auto;
+    max-width: 750px;
+    font-size: 50px;
+}
+
+.child3 button {
+    background: orangered;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.9rem;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+    margin-top: 10px;
+    box-shadow:  0 0 15px black;
+}
+
+.para {
+    display: none;
+}
+button:hover {
+    background: rebeccapurple;
+}
+
+.child3 span{
+    color: rgb(216, 83, 165);
+}
+
+.container4 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.child4 {
+    margin: 0 auto;
+    max-width: 750px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(88, 199, 88);
+    border-radius: 7px;
+    color: rgb(221, 236, 236);
+}
+
+.footer {
+    background:rgb(216, 83, 165);
+    padding: 20px;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
