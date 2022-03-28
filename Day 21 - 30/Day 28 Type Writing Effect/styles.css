@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(230, 221, 221);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background: rgb(142, 168, 179); */
+}
+p {
+    font-size: 1.2rem;
+}
+
+.hello {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background: #ccc;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        background: #ccc;
+    }
+
+    49% {
+        background: #ccc;
+    }
+
+    50% {
+        background: transparent;
+    }
+
+    99% {
+        background: transparent;
+    }
+
+    100% {
+        background: #ccc;
+    }
+}
+
+.cursor.typing {
+    animation: none;
+}
+
+span {
+    margin: 1rem 0;
+}
+
+.container {
+    max-width: 900px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+section.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.job-title {
+    color: rgb(240, 133, 2);
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.btn {
+    background: rgb(106, 195, 195);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: rgb(167, 162, 162);
+}
+
+img{
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+/* 
+parent div explanation
+media query
+*/
