@@ -1,4 +1,4 @@
-// Let's fetch all the elemnts we would require from the html 
+// Let's fetch all the elements required through DOM
 let pounds = document.querySelector(".input-p"),
 kilos = document.querySelector(".input-k"),
 grams = document.querySelector(".input-g"),
