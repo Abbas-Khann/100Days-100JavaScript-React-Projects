@@ -1,3 +1,4 @@
+// let's fetch the component we need to make changes on the DOM
 const btn = document.querySelector(".btn"),
 tip = document.querySelector(".tip"),
 total = document.querySelector(".total"),
