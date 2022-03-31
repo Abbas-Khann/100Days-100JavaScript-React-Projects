@@ -3,30 +3,30 @@ const result = document.querySelector(".result");
 const reset = document.querySelector(".btn-style");
 let bmi;
 
-// listening for a click event on button and calling getBmi function.
+// listening for a click event on button and calling the getBmi function.
 btn.addEventListener("click", getBmi);
 
 function getBmi() {
-    // as soon the button get clicked and this function executes, We would fetch values from both height and weight input field.
+    // as soon as the button gets clicked and this function executes, We would fetch values from both height and weight input field.
     let height = document.querySelector(".input-h").value;
     let weight = document.querySelector(".input-w").value;
     
-    // here we would check it if both the fields are empty, a message would disply to enter valid input in both the fields
+    // here we would check if both the fields are empty, a message would disply to enter valid input in both the fields
     if(height === "" && weight === "" ) {
        return result.innerHTML = "Please enter valid height and weight";
    }
-    // here we would check for eiher the empty field or if the input is number or not. If one of the condition is true, We would display a message to enter valid height.
+    // here we would check for eiher the empty field or if the input is a number or not. If one of the conditions is true, We would display a message to enter valid height.
     else if(height === "" || isNaN(height)) {
         return result.innerHTML = "Please enter a valid height";
     }
-    // here we would do the same for weight input field. If the user input is either epmpty or not a valid number input.
-    //If one of the condition is true we would dispaly a message.
+    // here we would do the same for the weight input field. If the user input is either empty or not a valid number input.
+    // If one of the conditions happens to be true we would dispaly a message.
     else if(weight === "" || isNaN(weight)) {
         return result.innerHTML = "Please enter a valid weight";
     }
     // this bloack will executed if we find no errors with input field.
     else {
-        // an standard formula to calculate BMI and we would use .toFixed() method to specify how many digits we want after decimal. In our case it's 2 digits only. 
+        // A standard formula to calculate BMI and we would use .toFixed() method to specify how many digits we want after decimal. In our case it's 2 digits only. 
         bmi = ((weight / height / height ) * 10000).toFixed(2);
         // the we will call getColor function and render the result with the help of result variable. 
         getColor();
