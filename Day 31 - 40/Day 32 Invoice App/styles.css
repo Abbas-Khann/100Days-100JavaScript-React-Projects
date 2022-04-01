@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 15px;
+    text-align: center;
+    background: #1C658C;
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.p1 { 
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1A132F;
+    height: 70vh;
+}
+
+.child {
+    margin-top: 5px;
+    padding: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.btn-div {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-div > *{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(195, 195, 209);
+    background: #D5BFBF;
+    color: grey;
+    width: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.btn-div > *:hover{
+    background: #F0E5CF;
+}
+
+.btn-div button:nth-child(1) {
+    margin-left: 0;
+}
+
+.btn-div button:nth-child(3) {
+    margin-right: 0;
+}
+
+.total-div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.tasks > * {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.total-amount {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.para {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.reset-btn {
+    padding: 10px;
+    margin-top: 10px;
+    float: center;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    color: rgb(219, 221, 221);
+    background: #548CFF;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background: #4D96FF;
+}
+
+footer{
+    background: #1A132F;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
