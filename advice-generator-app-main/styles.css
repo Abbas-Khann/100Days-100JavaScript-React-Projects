@@ -1,0 +1,61 @@
+body {
+    background-color: #202632;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    text-align: center;
+}
+
+.child {
+    padding: 30px 10px 50px 10px;
+    background: hsl(217, 19%, 24%);
+    /* height: 29vh; */
+    border-radius: 10px;
+
+}
+
+#result {
+    max-width: 450px;
+    margin: 20px 0;
+    color: white;
+    line-height: 2rem;
+}
+
+#advice-id {
+    font-size: 16px;
+    color: hsl(150, 100%, 66%);
+}
+
+#dice-image {
+    /* display: inline-block; */
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: hsl(150, 100%, 66%);
+    padding: 15px;
+    border-radius: 100px;
+    position: fixed;
+    margin-left: 200px;
+}
+
+#dice-image:hover {
+    box-shadow: 0px 0px 20px 0px hsl(150, 100%, 66%);
+
+}
+
+
+.attribution {
+     font-size: 11px; text-align: center;
+     color: white;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%); 
+}
