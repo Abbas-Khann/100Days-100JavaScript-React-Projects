@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-image: url(./images/age.jpg);
+   background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.3rem;
+    font-style: italic;
+}
+
+.input-txt, .input-date {
+    padding: 10px 10px;
+    margin: 2px;
+}
+
+.btn {
+    margin-top: 5px;
+    padding: 10px 15px;
+    background: rgb(19, 41, 78);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.result {
+    margin-top: 20px;
+}
