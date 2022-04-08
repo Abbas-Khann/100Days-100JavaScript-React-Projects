@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+body {
+    box-sizing: border-box;
+    background-color: #2a2a72;
+    font-family: "Poppins", sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.container {
+    text-align: center;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+.input-txt {
+    width: 45%;
+    height: 15%;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    background: #4c2885;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    text-align: start;
+    font-family: inherit;
+}
+
+.input-txt:focus {
+    outline: none;
+}
+
+.github-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4c2885;
+    max-width: 700px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 0 50px;
+    visibility: hidden;
+}
+
+.img-div{
+    /* margin-left: 210px; */
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    background-position: cover;
+    border-radius: 200px;
+    border: 10px solid #2a2a72;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+.info {
+    text-align: left;
+}
+
+.pinned-projects a {
+    background: #2a2a72;
+    padding: 2px;
+    display: inline-block;
+    margin: 5px;
+   font-size: .8rem;
+   padding: 5px;
+   color: whitesmoke;
+   text-decoration: none;
+}
