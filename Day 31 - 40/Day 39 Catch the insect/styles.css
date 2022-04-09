@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P", sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    background: #516dff;
+    color: white;
+}
+
+h1 {
+    line-height: 1.4;
+}
+
+.first-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    transition: margin 0.7s ease-in-out;
+}
+
+.play-game-btn {
+    padding: 15px;
+    font-size: 1.1rem;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.play-game-btn:hover {
+    background: rgb(198, 198, 241);
+}
+
+.first-page.up {
+    margin-top: -100vh;
+}
+
+.insect-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+img {
+    width: 100px;
+}
+
+.insect-list span {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 1rem;
+    width: 15vw;
+    height: 140px;
+    border: 2px solid whitesmoke;
+    padding: 70px;
+    padding-bottom: 90px;
+}
+
+.insect-list span:hover {
+    background: rgba(189, 223, 236, .3);
+    cursor: pointer;
+}
+
+.third-page {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.third-page span {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    height: 30px;
+}
+
+.insect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.insect.caught {
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.display-message {
+    background: rgba(236, 221, 221, .2);
+    width: 100%;
+    margin-top: 250px;
+    position: absolute;
+    visibility: hidden;
+    
+}
