@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 248, 231);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heading {
+    font-size: 2.4rem;
+}
+
+.container {
+    text-align: center;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+
+.scores {
+    padding: 70px 60px 100px 60px;
+    background: rgb(230, 215, 215);
+    box-shadow: 0 0 3px 0 black;
+}
+
+
+.player-turn {
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.players-scores,.dashes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 430px;
+}
+
+/*  */
+
+.player1-box, .player2-box {
+    padding: 2rem;
+    background: linear-gradient(lightpink, rgb(148, 138, 148));
+    font-size: 2rem;
+}
+
+/* .player2-turn-score {
+    padding: 2rem;
+    background: chartreuse;
+} */
+
+.dice-btn, .reset-btn {
+    padding: 12px 15px;
+    background: linear-gradient(lightpink, rgb(209, 188, 209));
+    width: 175px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 540;
+    outline: none;
+    margin: 0 auto;
+}
+
+.reset-btn {
+    display: none;
+}
+
+.display-score {
+    box-shadow: 0 0 10px 0 black;
+}
