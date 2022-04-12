@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+        background: hsl(222, 26%, 31%);
+}
+
+.heading {
+    color: aliceblue;
+    font-family: Tahoma;
+    font-size: 2.3rem;
+}
+
+.container {
+    text-align: center;
+}
+
+.input-num {
+    padding: 14px;
+    width: 340px;
+    margin-top: 20px;
+    font-size: 20px;
+    background: hsl(224, 36%, 15%);
+    color: white;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.cal-pad {
+    padding: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 450px;
+    /*background: hsl(224, 36%, 15%);*/
+}
+
+.btn {
+    padding: 10px 15px;
+    width: 80px;
+    background: wheat;
+    border: none;
+    outline: none;
+    margin: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.submit {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.result {
+    padding: 7px 30px;
+    width: 165px;
+    text-align: center;
+    background: coral;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.blue {
+    background: hsl(225, 21%, 49%);
+}
+
