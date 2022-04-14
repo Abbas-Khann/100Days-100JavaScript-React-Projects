@@ -1,0 +1,61 @@
+body {
+    background: aliceblue;
+    background: linear-gradient(to right, #d4d3dd, #efefbb);
+    font-family: "Trebuchet MS";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.poke-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon {
+    background: #eee;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.pokemon .img-container {
+    background: rgba(255,255,255,.6);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.pokemon .img-container img {
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+.pokemon .info {
+    margin-top: 20px;
+}
+
+.pokemon .info .number {
+    background: rgba(0,0,0,.1);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: .8rem;
+}
+
+.name {
+    margin: 15px 0 7px;
+    letter-spacing: .5px;
+}
