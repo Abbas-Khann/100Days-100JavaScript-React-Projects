@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(to right, rgb(171, 122, 221), rgb(190, 240, 190));
+    /* background: linear-gradient(to right, #d4d3dd, #efefbb); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: -webkit-linear-gradient(rgb(0, 7, 3), rgb(134, 77, 77));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#canvas {
+    background: rgb(255, 255, 255);
+    margin-top: 10px;
+    border: 1px solid slateblue;
+    border-bottom: none;
+    box-shadow: 0 0 15px rgb(40, 39, 42);
+    cursor: crosshair;
+}
+
+.toolbox {
+    /* background: red; */
+    background: linear-gradient(to right, rgb(121, 200, 231), rgb(199, 216, 173));
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    width: 625px;
+    padding: .9rem;
+    border-radius: 1.5px;
+    box-shadow: 0 0 2px lightcyan;
+}
+
+.toolbox > * {
+    background: white;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    height: 50px;
+    width: 50px; 
+    margin: .25rem;
+    cursor: pointer;
+}
+
+.toolbox > *:last-child {
+    margin-left: auto;
+}
+.toolbox > *:last-child:hover {
+    background: salmon;
+    color: white;
+}
