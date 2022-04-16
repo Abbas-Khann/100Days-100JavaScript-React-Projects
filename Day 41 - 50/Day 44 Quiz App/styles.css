@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", sans-serif;
+    background: linear-gradient(to right, hotpink, mediumpurple, lightskyblue);
+}
+
+.heading-top {
+    font-size: 2.4rem;
+    margin: 15px 0 0 0;
+    background: linear-gradient(to left, #f4b700 50%, #007e70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*color: #fcf4f4;*/
+}
+
+.container {
+    text-align: center;
+}
+
+.start-game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    transition: margin 0.5s ease;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.answers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    flex-wrap: wrap;
+}
+
+.start {
+    width: 15%;
+}
+
+p {
+    color: white;
+    font-size: 1.4rem;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: darkblue;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background: linear-gradient(to left, lightgoldenrodyellow, lightpink);
+}
+
+.btn {
+    width: 29%;
+    margin: 2rem;
+}
+
+.questions-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.start-game.up {
+    margin-top: -100vh;
+}
+
+.next {
+    display: none;
+}
+
