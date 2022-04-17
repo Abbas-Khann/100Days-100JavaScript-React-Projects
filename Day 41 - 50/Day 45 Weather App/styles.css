@@ -1,0 +1,111 @@
+
+
+body {
+    background: linear-gradient(to right, #ea2c62, #120078);
+    color: whitesmoke;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 65vh;
+    width: 15vw;
+    background-image: url("./images/weather.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px;
+    border-radius: 20px;
+}
+
+.form {
+    position: absolute;
+    margin-bottom: 270px;
+}
+
+label {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.search, .submit {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+.search {
+    background: #1b1b43;
+    border-bottom: 1px solid #34bc34;
+}
+
+.submit {
+    background: chocolate;
+    width: 270px;
+    cursor: pointer;
+}
+
+.submit:hover, .submit:active {
+    background: linear-gradient(to right, darkorange, salmon);
+}
+
+.cloudy {
+    width: 30%;
+    margin: 0 auto;
+}
+
+hr {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 26vw;
+    margin-top: 80px;
+}
+
+.location span {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+.temperature {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 15vh;
+}
+
+section {
+    margin-top: 150px;
+}
+
