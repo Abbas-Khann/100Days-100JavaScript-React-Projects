@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(to right, antiquewhite, lightpink);
+    /*background: var(--background);*/
+    font-family: "Trebuchet MS", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+    width: 80vw;
+    margin: 80px auto 0;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    color: var(--foreground);
+}
+
+.learn-btn, .sign-up, .dark {
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.learn-btn {
+    padding: 15px;
+    background: var(--foreground);
+    margin-right: 8px;
+    color: var(--background);
+}
+.sign-up {
+    padding: 15px 15px;
+    background: var(--color-orange);
+    color: var(--background);
+}
+
+.dark {
+    padding: 5px 15px;
+    border: 1px var(--foreground) solid;
+    margin: 10px 10px 0 0;
+}
+
+.footer {
+    background: var(--foreground);
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: var(--background);
+}
+
+.image {
+    width: 43%;
+}
+
+.image-div {
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+:root {
+    --color-light: #eee;
+    --color-dark: #222831;
+    --color-orange: #db6400;
+    --background: var(--color-light);
+    --foreground: var(--color-dark);
+}
+
+.dark-mode {
+    --color-light: #eee;
+    --color-dark: #222831;
+    --color-orange: #db6400;
+    --background: var(--color-dark);
+    --foreground: var(--color-light);
+      background: var(--color-dark);
+}
