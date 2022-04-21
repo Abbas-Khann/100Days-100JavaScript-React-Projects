@@ -1,0 +1,117 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Trebuchet MS", sans-serif;
+    background: linear-gradient(to right, antiquewhite, lightyellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: #e2edcd;
+    padding: 20px 30px;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    margin: 100px 0;
+    z-index: 10;
+    box-shadow: 0 20px 20px 0 lemonchiffon;
+}
+
+.image-container {
+    position: relative;
+    width: 110px;
+}
+
+.image-container img {
+    width: inherit;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: rotate 3s linear infinite;
+    animation-play-state: paused;
+}
+
+.container.play .image-container img {
+    animation-play-state: running;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+button {
+    background: inherit;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 20px;
+    color: skyblue;
+}
+
+.play {
+    font-size: 2rem;
+    color: rgba(93, 163, 163, 0.87);
+}
+
+.music-title {
+    font-size: 1.2rem;
+    color: cadetblue;
+    margin: 0;
+}
+
+
+.info-container {
+    background: rgba(188, 231, 188, 0.8);
+    border-radius: 15px 15px 0 0;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: calc(100% - 200px);
+    padding: 10px 10px 10px 150px;
+    opacity: 0;
+    transform: translateY(0%);
+    transition: transform .3s ease-in, opacity .3s ease-in;
+}
+
+.container.play .info-container {
+    opacity: 1;
+    transform: translateY(-100%);
+}
+
+.progress-div {
+    background: lemonchiffon;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    height: 4px;
+    width: 100%;
+}
+
+.progress-bar {
+    background: #7fa27f;
+    border-radius: 5px;
+    height: 100%;
+    width: 1%;
+}
