@@ -1,0 +1,205 @@
+html, body {
+    padding: 0;
+    margin: 0;    
+    background: rgb(51,43,55);
+    background: radial-gradient(circle, rgba(51,43,55,1) 0%, rgba(51,43,55,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+    font-family: 'MedievalSharp', cursive;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .5rem;
+} 
+
+@media(min-width:550px){
+   main {
+        flex-direction: row;
+        margin:6vh 5vw;
+        justify-content: center;
+        width:86vw;
+        gap: 2rem;
+    } 
+}
+
+.character-card {
+    height: 14rem;
+    margin-top: .5rem;
+    width:94vw;
+    max-width: 230px;
+    padding: 1vh 1vw;
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 14px;
+    position: relative;
+    background: #231d24;
+    text-align: center;
+    border: 0.08rem solid #000721;
+    box-shadow: inset 0px 0px 6px 2px rgba(100,100,100,0.2),
+                0px 0px 10px rgba(117,182,214,0.2);
+}
+
+@media(min-width:550px){
+    .character-card {
+        border: 0.2rem solid #000721;
+        height: 31rem;
+        width: 38vw;
+    }
+}
+
+.name {
+    margin: 1vh 0;
+    width:100%;
+    letter-spacing: 0.08em;
+    font-size: 90%;
+}
+
+@media(min-width:550px){
+    .name {
+    margin: 2vh 0;
+    font-size: 100%;
+}
+}
+
+.avatar {
+    width: 15vh;
+    border: 2px solid #000721;
+    max-width:100%;
+    opacity: 0.8;
+    border-radius: 10px;
+    background-color: rgba(0, 7, 33, 0.8);
+}
+
+@media(min-width:550px){
+    .avatar {
+        width: 25vh;
+    }
+}
+
+.health {
+    font-size:1.1rem;
+    font-weight: normal;
+    width:90%;
+    text-align: left;
+    margin: 1vh 5%;
+    color:#ccc;
+    letter-spacing: 0.03em
+}
+
+@media(min-width:550px){
+    .health {
+        margin: 2vh 5%;
+    }
+}
+
+.health b {
+    font-weight: bold;
+    color:#fff;
+}
+
+.health-bar-outer {
+    background: #171217;
+    height: 1vh;
+    width:90%;
+    margin: 0 5%;
+    border-radius: 2px;
+}
+
+.health-bar-outer .health-bar-inner {
+    background: #466d34;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.health-bar-outer .health-bar-inner.danger {
+    background:#d1435f;
+}
+
+.dice-container {
+    width:100%;
+    height: 20%;
+    position: absolute;
+    bottom:0;
+    left:0px;
+    right:0;
+    background: #000721;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+@media(min-width:550px){
+    .dice-container {
+        height: 30%;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+}
+
+.dice, .placeholder-dice{
+    height:5.5vh;
+    width:5.5vh;
+    background: #fff;   
+    border-radius: 5px;
+    border:1px solid #666;
+    color:#000721;
+    text-align: center;
+    line-height: 6vh;
+}
+
+@media(min-width:550px){
+.dice-container .dice, .dice-container .placeholder-dice{
+    height:10vh;
+    width:10vh;
+    line-height: 10.5vh;
+}
+}
+
+.dice-container .placeholder-dice{
+    background-color: transparent;
+}
+
+button {
+    margin-top: .5rem;
+    font-family: 'MedievalSharp', cursive;
+    background-color: #fcc02a;
+    border: 2px solid #963404;
+    outline: none;
+    padding-left:5vw;
+    padding-right:5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    color:#963404;
+    height:9vh;
+    box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.4);
+}
+
+@media(min-width:550px){
+    button {
+        margin-top: 0;
+    }
+}
+
+
+button:focus { outline: 0 }
+
+.end-game{
+    margin-top: 25%;
+    text-align: center;
+}
+
+.end-emoji{
+    font-size: 80px;
+}
