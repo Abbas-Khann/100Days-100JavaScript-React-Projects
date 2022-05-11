@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: black; */
+  background: black;
+  /* background: linear-gradient(to left, slateblue, purple); */
+  /* background: linear-gradient(to left, rgb(63, 15, 63), rgb(33, 33, 66), rgb(37, 14, 14)); */
+  background: radial-gradient(rgb(63, 15, 63), rgb(49, 49, 119), rgb(37, 14, 14));
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

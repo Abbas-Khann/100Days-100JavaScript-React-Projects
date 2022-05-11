@@ -1,0 +1,84 @@
+.coin-table {
+    display: flex;
+    /* margin: 5px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.coin-table > * {
+    /* padding: 1.4rem 1.4rem 0rem 1.4rem; */
+    width: 220px;
+    font-weight: 700;
+}
+
+
+.input-box {
+    padding: .95rem;
+    width: 280px;
+    font-size: 1rem;
+    font-weight: 550;
+    background: linear-gradient(to right,rgb(91, 189, 206), rgb(59, 174, 219),  purple );
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-family: inherit;
+    margin: 50px 0;
+}
+
+
+.body-container {
+    max-width: 750px;
+    margin: 10px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.coin-img {
+    width: 50px;
+}
+
+.image-table {
+    padding: 0;
+    width: 70px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: greenyellow;
+}
+
+.table-heading {
+    width: 1050px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 1.9rem;
+    /* background: linear-gradient(to left, slateblue, purple); */
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex > * {
+    /* padding: 1rem; */
+    padding-left: 3rem;
+}
+
+.heading-1 {
+    font-size: 2.6rem;
+    margin: 0;
+}
