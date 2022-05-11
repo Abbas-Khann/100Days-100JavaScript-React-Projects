@@ -1,0 +1,25 @@
+.heading {
+  text-align: center;
+  font-weight: 500;
+}
+
+.input-box {
+  padding: .6rem;
+  font-size: 1.2rem;
+  margin: 0 0 0 20px;
+  width: 95%;
+  font-weight: 500;
+  border: 2px solid grey;
+  border-radius: 3px;
+}
+
+.emoji-div {
+  padding: 1rem;
+  margin-top: 10px;
+  border: 1px solid lightslategray;
+  cursor: pointer;
+}
+
+.main-div {
+  border: 5px solid red;
+}
