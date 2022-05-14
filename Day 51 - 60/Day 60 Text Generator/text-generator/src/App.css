@@ -1,0 +1,174 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+/* Body Styles */
+
+body {
+  background: linear-gradient(to right, rgb(43, 54, 73), rgb(70, 61, 129), steelblue);
+}
+
+/* Title Styles */
+
+.title {
+  width: 100%;
+  padding: 26px 0;
+  color: #fff;
+  text-align: center;
+  background: #3c4773;
+  font-family: inherit;
+}
+
+/* Options Styles */
+
+.options {
+  width: 100%;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+.options .wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.options .wrapper .optionsContainer {
+  width: 100%;
+  max-width: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options .wrapper .optionsContainer p {
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 1.2px;
+}
+
+.options .wrapper .optionsContainer input,
+.options .wrapper .optionsContainer select {
+  background: #3c4773;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  width: 180px;
+}
+
+.options .wrapper .optionsContainer select {
+  appearance: none;
+}
+
+.options .wrapper .copy button {
+  border: none;
+  outline: none;
+  width: 164px;
+  background: #3c4773;
+  color: #fff;
+  padding: 13px 0;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+/* Output Styles */
+
+.output {
+  width: 100%;
+  padding: 40px;
+  background: #3c4773;
+  border-radius: 4px;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  color: #fff;
+}
+
+.output p {
+  line-height: 1.8;
+}
+
+/* Media Queries */
+
+@media (max-width: 640px) {
+  .title {
+    padding: 26px;
+  }
+  .options .wrapper {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .options .wrapper .optionsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .options .wrapper .optionsContainer .paragraphs,
+  .options .wrapper .optionsContainer .include,
+  .options .wrapper .optionsContainer .tags {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .options .wrapper .optionsContainer .paragraphs p,
+  .options .wrapper .optionsContainer .include p,
+  .options .wrapper .optionsContainer .tags p {
+    font-size: 10px;
+  }
+  .options .wrapper .optionsContainer input,
+  .options .wrapper .optionsContainer select {
+    width: 100%;
+  }
+  .options .wrapper .copy {
+    width: 100%;
+  }
+  .options .wrapper .copy button {
+    margin: 10px 0;
+    width: 100%;
+    padding: 24px 0;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 940px) {
+  .options .wrapper {
+    flex-direction: column;
+  }
+  .options .wrapper .optionsContainer {
+    max-width: 100%;
+    justify-content: space-between;
+  }
+  .options .wrapper .optionsContainer .paragraphs,
+  .options .wrapper .optionsContainer .include,
+  .options .wrapper .optionsContainer .tags {
+    width: 100%;
+    max-width: 30%;
+  }
+  .options .wrapper .copy {
+    width: 100%;
+  }
+  .options .wrapper .copy button {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 1240px) {
+  .container {
+    max-width: 90%;
+  }
+}
