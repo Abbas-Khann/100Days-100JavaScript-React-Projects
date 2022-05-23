@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+html, body {
+    background: linear-gradient(to left, lightseagreen, lightsteelblue, white);
+    margin:0;
+    padding: 0;
+    padding-top: 10px;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+}
+
+body {
+    font-weight: 400;
+}
+
+button {
+    font-family: inherit;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background: lightseagreen;
+}
+
+h1 {
+    font-size: 20px;
+    text-align:center;
+}
+
+textarea {
+    border: 3px solid black;
+    width: 90%;
+    margin: 0 auto;
+    outline: none;
+    height: 200px;
+    background: linear-gradient(to left, lightblue , lightpink, whitesmoke);
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+textarea:disabled {
+    background-color: #a5a2a2;
+}
