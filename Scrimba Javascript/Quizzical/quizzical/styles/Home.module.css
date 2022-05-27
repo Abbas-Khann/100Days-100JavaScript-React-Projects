@@ -1,0 +1,35 @@
+.start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+.start h1 {
+  margin: 0;
+  font-size: 2.7rem;
+}
+
+.start p {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.start button {
+  margin-top: 30px;
+  padding: 15px 60px;
+  font-size: 1.1rem;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: linear-gradient(to right, skyblue, #4D5B9E);
+  font-weight: 550;
+  font-family: inherit;
+}
+
+.start button:hover {
+  background: linear-gradient(to left, skyblue, #4D5B9E);
+  color: aliceblue;
+}
