@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #F5F7FB;
+	color: #293264;
+	/* font-family: "Karla", sans-serif; */
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+	position: relative;
+	min-height: 100vh;
+}
+
+p, h1, h2, h3 {
+	margin: 0;
+}
+
+img {
+	-webkit-user-drag: none;
+}
+
+footer {
+	color: #293264;
+	text-align: center;
+	padding: 2em 0 2em 0;
+	width: 200px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -100px;
+}

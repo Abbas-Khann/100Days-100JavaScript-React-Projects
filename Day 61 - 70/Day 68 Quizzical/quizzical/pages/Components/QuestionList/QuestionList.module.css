@@ -1,0 +1,63 @@
+.questionListContainer {
+	width: 900px;
+	display: flex;
+	flex-direction: column;
+}
+
+.btnCheckAnswers {
+	align-self: center;
+}
+
+.btnCheckAnswersDisabled {
+	align-self: center;
+	opacity: 50%;
+	cursor: not-allowed;
+}
+
+.btnCheckAnswersDisabled:active {
+	box-shadow: none;
+}
+
+.bottomContainer {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.correctAnswersText {
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+.btnPrimary {
+	border: none;
+	font-size: 1.3rem;
+	outline: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+	background: linear-gradient(to left, skyblue , lightblue);
+	cursor: pointer;
+	font-family: inherit;
+}
+
+
+@media screen and (max-width: 770px) {
+	.questionListContainer {
+		width: 80vw;
+		margin: 4em auto 2em auto;
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	.questionListContainer {
+		width: 90vw;
+	}
+
+	.correctAnswersText {
+		font-size: 1em;
+		margin-right: 1em;
+	}
+}
