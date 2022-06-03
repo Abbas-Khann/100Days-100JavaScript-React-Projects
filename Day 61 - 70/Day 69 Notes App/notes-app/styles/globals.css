@@ -1,0 +1,7 @@
+body {
+  background: linear-gradient(to left, hsl(180, 100%, 50%, .5), lightyellow)
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
