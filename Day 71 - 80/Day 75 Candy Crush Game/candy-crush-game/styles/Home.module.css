@@ -1,0 +1,23 @@
+.h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: rgb(124, 5, 124);
+}
+
+.app {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+}
+
+.game {
+  width: 500px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .game img {
+  width: 70px;
+  height: 70px;
+} */
