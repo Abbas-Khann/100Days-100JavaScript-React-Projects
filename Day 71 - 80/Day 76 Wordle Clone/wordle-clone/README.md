@@ -1,5 +1,11 @@
 
-data we need to track:
+
+https://user-images.githubusercontent.com/78753275/177338320-065de792-19e7-4451-bac2-a91fe7ef9b05.mov
+
+
+
+
+Data we need to track:
   -- solution
     -- 5 letter string, e.g. 'drain'
   -- past guesses
